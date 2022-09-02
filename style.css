@@ -13,11 +13,7 @@
     }
 
     header{
-        background: linear-gradient(
-            rgba(0, 0, 0, 0.7), 
-            rgba(0, 0, 0, 0.7)
-        ), url(images/sefactory.jpg) no-repeat;
-        background-size: cover;
+    
         width: 100%;
         display: flex;
         justify-content: space-between;
