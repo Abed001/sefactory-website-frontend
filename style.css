@@ -4,10 +4,11 @@
     margin:0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    
 }
 
 .logo{
-padding-left: 100px;
+padding-left: 80px;
 }
 
 header{
@@ -41,4 +42,40 @@ padding-left: 30px;
         padding-right: 20px;
         border: none;
         border-radius:4px;
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    background: url(images/sefactory.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.main h1{
+    word-spacing: 0.2px;
+    letter-spacing: 0.5px;
+    font-weight: bold; 
+    font-size: 60px;
+    color: white;
+}
+.main h2{
+    font-weight: 100;
+    font-size: 60px;
+   color: white;
+
+}
+
+.main p{
+    font-weight: 100;
+    font-size: 25px;
+   color: white;
+}
+.topspacemain{
+    padding-top: 200px;
+}
+.leftmarginmain{
+    padding-left:100px;
+}
+.marginlearnmore{
+    margin-top: 20px;
 }
